@@ -31,6 +31,21 @@
 $ npm install
 ```
 
+### 📦 Commands
+
+| Action   | Command                                                                 |
+| -------- | ----------------------------------------------------------------------- |
+| Generate | `npm run migration:generate -- src/database/migrations/<MigrationName>` |
+| Run      | `npm run migration:run`                                                 |
+| Revert   | `npm run migration:revert`                                              |
+
+> Example:  
+> To create a new migration file named `CreateUserTable`:
+>
+> ```bash
+> npm run migration:generate -- src/database/migrations/CreateUserTable
+> ```
+
 ## Compile and run the project
 
 ```bash
